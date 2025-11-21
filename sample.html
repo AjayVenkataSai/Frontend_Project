@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="styles.css" / >
+    <style>
+      table {
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <form>
+        <fieldset style="margin: auto; height: 80%; width: 30%; padding: 20px">
+          <h1 style="text-align: center" id="registrationForm">
+            Student Registration Form
+          </h1>
+          <table align="center">
+            <tr>
+              <th>Roll No:</th>
+              <td><input type="text" /></td>
+            </tr>
+            <tr>
+              <th>Student Name:</th>
+              <td>
+                <input type="text" placeholder="First Name" /> -
+                <input type="text" placeholder="Last Name" />
+              </td>
+            </tr>
+            <tr>
+              <th>Father's Name:</th>
+              <td><input type="text" /></td>
+            </tr>
+            <tr>
+              <th>Date of Birth:</th>
+              <td><input type="date" /></td>
+            </tr>
+            <tr>
+              <th>Mobile No:</th>
+              <td>
+                <input
+                  type="code"
+                  name="countrycode"
+                  value="+91"
+                  style="width: 30px"
+                />
+                -
+                <input type="tel" id="phone" name="phone" />
+              </td>
+            </tr>
+            <tr>
+              <th>Email ID:</th>
+              <td>
+                <input type="email" />
+              </td>
+            </tr>
+            <tr>
+              <th>Password:</th>
+              <td><input type="password" /></td>
+            </tr>
+            <tr>
+              <th>Gender:</th>
+              <td>
+                <input type="radio" name="gender" /> Male
+                <input type="radio" name="gender" /> Female
+              </td>
+            </tr>
+            <tr>
+              <th>Department:</th>
+              <td>
+                <input type="checkbox" /> CSE <input type="checkbox" /> IT
+                <input type="checkbox" /> ECE <input type="checkbox" /> CIVIL
+                <input type="checkbox" /> MECH
+              </td>
+            </tr>
+            <tr>
+              <th>Course:</th>
+              <td>
+                <select>
+                  <option>-------- Select Current Course's ------------</option>
+                  <option>JAVA</option>
+                  <option>PYTHON</option>
+                  <option>SQL</option>
+                  <option>JAVASCRIPT</option>
+                </select>
+              </td>
+            </tr>
+            <tr>
+              <th>Student Photo:</th>
+              <td><input type="file" /></td>
+            </tr>
+            <tr>
+              <th>City:</th>
+              <td><input type="text" /></td>
+            </tr>
+            <tr>
+              <th>Course :</th>
+              <td><input type="text" /></td>
+            </tr>
+            <tr>
+              <th>Address:</th>
+              <td><textarea></textarea></td>
+            </tr>
+            <tr>
+              <td colspan="2" style="text-align: center" />
+              <input type="submit" value="Register" />
+            </tr>
+          </table>
+        </fieldset>
+      </form>
+    </div>
+  </body>
+</html>

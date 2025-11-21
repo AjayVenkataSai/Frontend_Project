@@ -1,0 +1,22 @@
+fieldset {
+  width: 550px;
+  background-color: bisque;
+}
+
+#uniqueElement {
+  color: blue;
+  font-size: 20px;
+}
+
+#registrationForm {
+  color: red;
+  font-size: 40px;
+}
+
+.commonStyle {
+  background-color: lightgray;
+}
+
+button:hover {
+  background-color: rgb(red, green, blue);
+}
